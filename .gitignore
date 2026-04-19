@@ -1,8 +1,13 @@
 # Data
-data/raw
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
 
 # Generated Outputs
-outputs/
+outputs/*
+!outputs/.gitkeep
 
 # Sensitive
 .env
