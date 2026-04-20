@@ -1,3 +1,5 @@
+![Banner](banner.svg)
+
 # Are there Specific Patterns in Transshipment Behavior that Suggest Potential Illegal Fishing Activity?
 
 ## Data Used
