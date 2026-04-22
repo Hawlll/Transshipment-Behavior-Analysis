@@ -4,7 +4,7 @@ For each decision, append another block below using the same heading and four pa
 
 ---
 
-## 2026-04-20
+## 2026-03-25
 
 EDA showed three Global Fishing Watch tables (encounters, loitering, vessel registry). Encounters captured fewer at-sea meetings, while loitering had many more rows and similar regional hotspots, which matched the question about lingering behavior, speed, and duration near protected areas.
 
@@ -16,7 +16,7 @@ The downstream engineering and modeling notebooks assume one processed loitering
 
 ---
 
-## 2026-04-20
+## 2026-04-01
 
 We needed a consistent way to attach each loitering event to a named MPA and a scalar “closeness” feature for modeling and dashboards.
 
@@ -28,7 +28,7 @@ Nearest-MPA features are approximate (chord vs. geodesic; degree-based “distan
 
 ---
 
-## 2026-04-20
+## 2026-04-15
 
 Raw timestamps and a naive UTC night flag would misclassify vessels far from the prime meridian, and total duration alone does not describe spatial drift during an event.
 
